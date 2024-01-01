@@ -240,11 +240,11 @@ importers:
         specifier: 3.3.6
         version: 3.3.6
       node-html-parser:
-        specifier: 6.1.5
-        version: 6.1.5
+        specifier: 6.1.12
+        version: 6.1.12
       openpgp:
-        specifier: 5.9.0
-        version: 5.9.0
+        specifier: 5.10.1
+        version: 5.10.1
       p-all:
         specifier: 3.0.0
         version: 3.0.0
@@ -8492,8 +8492,8 @@ packages:
     dev: false
     optional: true
 
-  /node-html-parser@6.1.5:
-    resolution: {integrity: sha512-fAaM511feX++/Chnhe475a0NHD8M7AxDInsqQpz6x63GRF7xYNdS8Vo5dKsIVPgsOvG7eioRRTZQnWBrhDHBSg==}
+  /node-html-parser@6.1.12:
+    resolution: {integrity: sha512-/bT/Ncmv+fbMGX96XG9g05vFt43m/+SYKIs9oAemQVYyVcZmDAI2Xq/SbNcpOA35eF0Zk2av3Ksf+Xk8Vt8abA==}
     dependencies:
       css-select: 5.1.0
       he: 1.2.0
@@ -8811,8 +8811,8 @@ packages:
       is-wsl: 2.2.0
     dev: true
 
-  /openpgp@5.9.0:
-    resolution: {integrity: sha512-wEI6TAinCAq8ZLZA4oZ3ZtJ2BhhHj+CiPCd8TzE7zCicr0V8tvG5UF76OtddLLOJcK63w3Aj3KiRd+VLMScirQ==}
+  /openpgp@5.10.1:
+    resolution: {integrity: sha512-SR5Ft+ej51d0+p53ld5Ney0Yiz0y8Mh1YYLJrvpRMbTaNhvS1QcDX0Oq1rW9sjBnQXtgrpWw2Zve3rm7K5C/pw==}
     engines: {node: '>= 8.0.0'}
     dependencies:
       asn1.js: 5.4.1
@@ -9815,6 +9815,7 @@ packages:
 
   /sinon@14.0.2:
     resolution: {integrity: sha512-PDpV0ZI3ZCS3pEqx0vpNp6kzPhHrLx72wA0G+ZLaaJjLIYeE0n8INlgaohKuGy7hP0as5tbUd23QWu5U233t+w==}
+    deprecated: 16.1.1
     dependencies:
       '@sinonjs/commons': 2.0.0
       '@sinonjs/fake-timers': 9.1.2
